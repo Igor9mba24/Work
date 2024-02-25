@@ -1,0 +1,32 @@
+# version: '3.4'
+
+# networks:
+#   workapp:
+
+# services:
+#   workappdb:
+#     container_name: work-db
+#     image: mcr.microsoft.com/mssql/sserver:2019-latest
+#     ports:
+#         - 8002:1433
+#     environment:
+#         - ACCEPT_EULA=Y
+#         - SA_PASSWORD=password@12345#
+#     networks:
+#         - workapp
+#   work:
+#     container_name: work-app
+#     image: ${DOCKER_REGISTRY-}work
+#     build:
+#       context: .
+#       dockerfile: Work\Dockerfile
+#     ports:
+#      - 80:8080
+#     depends_on:
+#      - workappdb
+#     environment:
+#      - DB_HOST=workappdb
+#      - DB_NAME=WorkApp
+#      - DB_SA_PASSWORD=password@1234#
+#     networks:
+#      - workapp

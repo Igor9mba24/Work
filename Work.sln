@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Work", "Work\Work.csproj", "{75303940-F00F-4C07-9931-DB614D967562}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestWork1", "TestWork1\TestWork1.csproj", "{49E83037-1B3B-410E-90D6-7A7E0A63150B}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{FC10771E-8AD9-4D91-B774-367A7CB7EA09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75303940-F00F-4C07-9931-DB614D967562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75303940-F00F-4C07-9931-DB614D967562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75303940-F00F-4C07-9931-DB614D967562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75303940-F00F-4C07-9931-DB614D967562}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49E83037-1B3B-410E-90D6-7A7E0A63150B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49E83037-1B3B-410E-90D6-7A7E0A63150B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49E83037-1B3B-410E-90D6-7A7E0A63150B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49E83037-1B3B-410E-90D6-7A7E0A63150B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC10771E-8AD9-4D91-B774-367A7CB7EA09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC10771E-8AD9-4D91-B774-367A7CB7EA09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC10771E-8AD9-4D91-B774-367A7CB7EA09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC10771E-8AD9-4D91-B774-367A7CB7EA09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5062AA0-75F2-4181-B128-96083400A898}
+	EndGlobalSection
+EndGlobal
